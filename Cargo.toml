@@ -4,8 +4,5 @@ edition = "2018"
 name = "deno-repro-repo"
 version = "0.1.0"
 
-# [workspace]
-# members = ["./big-green-dino"]
-
 [dependencies]
-deno_core = "0.82.0"
+rusty_v8 = "0.21.0"
